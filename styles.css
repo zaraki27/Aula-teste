@@ -1,0 +1,77 @@
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do header no topo */
+.header-top {
+    background-color: #b82020;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+/* Estilo da lista no header top */
+.header-top nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Distribui os itens igualmente */
+}
+
+/* Estilo dos itens da lista no header top */
+.header-top nav ul li {
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+/* Estilo dos links nos itens da lista */
+.header-top nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Estilo do header lateral */
+.header-side {
+    background-color: #b82020;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    text-align: center;
+}
+
+/* Estilo da lista no header lateral */
+.header-side nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Organiza os itens em colunas */
+    justify-content: space-around; /* Distribui os itens igualmente */
+    height: 100%; /* Preenche a altura do header lateral */
+    margin-top: 100px;
+}
+
+/* Estilo dos itens da lista no header lateral */
+.header-side nav ul li {
+    margin: 50% 0; /* Espaçamento entre os itens */
+}
+
+
+/* Estilo dos links nos itens da lista no header lateral */
+.header-side nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.content{
+    margin-left: 120px;
+    margin-top: 20px;
+}
